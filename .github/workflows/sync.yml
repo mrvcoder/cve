@@ -16,6 +16,6 @@ jobs:
         run: |
           git remote add upstream https://github.com/trickest/cve.git
           git fetch upstream
-          git checkout master
-          git merge upstream/master --no-edit
-          git push origin master
+          git checkout main
+          git merge upstream/main --no-edit
+          git push origin main
