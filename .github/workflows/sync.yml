@@ -1,5 +1,6 @@
 name: Sync with Forked Repo
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 */5 * * *"
 
