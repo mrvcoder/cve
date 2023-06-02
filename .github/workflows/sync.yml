@@ -14,6 +14,8 @@ jobs:
 
       - name: Sync with Forked Repo
         run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
           git remote add upstream https://github.com/trickest/cve.git
           git fetch upstream
           git checkout main
